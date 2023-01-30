@@ -85,8 +85,9 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-6">
-                <div style="position:relative;text-align:center;min-height:600px;">
-    <img src="https://i.imgur.com/np0yhKb.png" alt="Image 2" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);animation:rotate 15s linear infinite;">
+<div style="position:relative;text-align:center;min-height:600px;">
+  <img src="https://i.imgur.com/np0yhKb.png" alt="Image 2" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);animation:rotate 15s linear infinite;">
+  <img src="https://i.imgur.com/MoLYzP2.png" alt="Breathing Image" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);animation:breathe 5s ease-in-out infinite;">
   <img src="https://i.imgur.com/axkkdyk.png" style="position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;">
 </div>
 
@@ -99,10 +100,24 @@
       transform: translate(-50%, -50%) rotate(0deg);
     }
   }
-    img {
+
+  @keyframes breathe {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+
+  img {
     user-select: none;
   }
 </style>
+
 
                 </div>
             </div>
