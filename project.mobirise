@@ -105,7 +105,7 @@
     "witsec-mailform": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "site_lang": "en",
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "dppsSwitcher": true,
     "spellingSwitch": true,
     "global_before_html": "",
