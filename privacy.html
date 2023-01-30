@@ -28,6 +28,20 @@
 
   
   
+<script>
+  document.addEventListener("dragstart", function(event) {
+    event.preventDefault();
+  });
+  
+  document.addEventListener("dragover", function(event) {
+    event.preventDefault();
+  });
+  
+  document.addEventListener("drop", function(event) {
+    event.preventDefault();
+  });
+</script>
+
   
 </head>
 <body>
@@ -39,7 +53,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="index.html#Home">
-                        <img src="assets/images/favicon-1.png" alt="Ritual Rave" style="height: 4rem;">
+                        <img src="assets/images/favicon-1.png" alt="Ritual Rave" style="height: 3.3rem;">
                     </a>
                 </span>
                 
