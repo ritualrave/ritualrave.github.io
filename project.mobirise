@@ -106,7 +106,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "gdpr": false,
-    "uniqCompNum": 36,
+    "uniqCompNum": 40,
     "versionPublish": "5.7.8",
     "screenshot": "screenshot.png",
     "witsec-white-label": true,
@@ -1958,7 +1958,7 @@
           },
           "_name": "content4",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2-2000x1167.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\"><b>Tickets</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\"><div><b>In order to guarantee the best possible experience for everyone, we need you to consent with our manifesto. Please read this carefully before buying a ticket.</b></div><br><div><b>\n</b></div><div>Ritual Rave is an opportunity for you to <a href=\"javascript:OpenModal('expression')\" class=\"text-secondary\"><b>express yourself</b></a> and find your community. We stand united <b>against <a href=\"javascript:OpenModal('repression')\" class=\"text-secondary\"><b>repression</b></a></b> of the <b>underground</b> and <b>revolutionary</b> movements.</div><br><div>\n</div><div>We reject the <a href=\"javascript:OpenModal('commercialisation')\" class=\"text-secondary\">commercialisation</a> of rave culture and dedicate ourselves to preserving and reviving <b>dance as a ritual</b>.</div><br><div>\n</div><div>We <b>celebrate diversity</b> and welcome all, regardless of <a href=\"javascript:OpenModal('sexuality')\" class=\"text-secondary\">sexuality</a>, <a href=\"javascript:OpenModal('ethnicity')\" class=\"text-secondary\">ethnicity</a>, <a href=\"javascript:OpenModal('gender-identity')\" class=\"text-secondary\">gender identity</a>, <a href=\"javascript:OpenModal('background')\" class=\"text-secondary\">background</a> or <a href=\"javascript:OpenModal('expression')\" class=\"text-secondary\">expression</a>.</div><br><div>\n</div><div>This is not a global solution, but a<b> local </b>one that exists within a defined space. We want to leave as <b>little trace</b> as possible and not impose our ideals on a permanent scale.</div><br><div><b>\n</b></div><div><b>When you attend our events, we invite you to actively participate in our attempt at a <a href=\"javascript:OpenModal('safer-space')\" class=\"text-secondary\"><b>safe(r) space</b></a> and become part of this temporary community.\n</b></div><div><b><br></b></div><div><b>\n</b></div><div><b>\n</b></div><div><b>\n</b></div><div><b>\n</b></div><div><b>\n</b></div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"page2.html#top\" data-app-placeholder=\"Type Text\">TICKETS</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background2-2000x1167.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\"><b>Tickets</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\"><div><b>In order to guarantee the best possible experience for everyone, we need you to consent with our manifesto. Please read this carefully before buying a ticket.</b></div><br><div><b>\n</b></div><div>Ritual Rave is an opportunity for you to <a href=\"javascript:OpenModal('expression')\" class=\"text-secondary\"><b>express yourself</b></a> and find your community. We stand united <b>against <a href=\"javascript:OpenModal('repression')\" class=\"text-secondary\"><b>repression</b></a></b> of the <b>underground</b> and <b>revolutionary</b> movements.</div><br><div>\n</div><div>We reject the <a href=\"javascript:OpenModal('commercialisation')\" class=\"text-secondary\">commercialisation</a> of rave culture and dedicate ourselves to <a href=\"javascript:OpenModal('preserving')\" class=\"text-secondary\">preserving</a> and <a href=\"javascript:OpenModal('reviving')\" class=\"text-secondary\">reviving</a> <b>dance as a ritual</b>.</div><br><div>\n</div><div>We <b>celebrate diversity</b> and welcome all, regardless of <a href=\"javascript:OpenModal('sexuality')\" class=\"text-secondary\">sexuality</a>, <a href=\"javascript:OpenModal('ethnicity')\" class=\"text-secondary\">ethnicity</a>, <a href=\"javascript:OpenModal('gender-identity')\" class=\"text-secondary\">gender identity</a>, <a href=\"javascript:OpenModal('background')\" class=\"text-secondary\">background</a> or <a href=\"javascript:OpenModal('expression')\" class=\"text-secondary\">expression</a>.</div><br><div>\n</div><div>This is not a global solution, but a<b> local </b>one that exists within a defined space. We want to leave as <b>little trace</b> as possible and not <a href=\"javascript:OpenModal('impose')\" class=\"text-secondary\">impose</a> our <a href=\"javascript:OpenModal('ideals')\" class=\"text-secondary\">ideals</a> on a permanent scale.</div><br><div><b>\n</b></div><div><b>When you attend our events, we invite you to actively participate in our attempt at a <a href=\"javascript:OpenModal('safer-space')\" class=\"text-secondary\"><b>safe(r) space</b></a> and become part of this temporary community.\n</b></div><div><b><br></b></div><div><b>\n</b></div><div><b>\n</b></div><div><b>\n</b></div><div><b>\n</b></div><div><b>\n</b></div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"page2.html#top\" data-app-placeholder=\"Type Text\">TICKETS</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tuItB9Nrl6",
           "_anchor": "content4-l",
           "_protectedParams": [],
@@ -2231,6 +2231,138 @@
           "modalWindow": "<div class=\"modal fade\" id=\"background\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"backgroundLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"backgroundLabel\">Background</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"background_body\">the customs, traditions, and beliefs that a person has grown up with and which have shaped their worldview, such as the kind of family you come from and the kind of education you have had</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#background\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#background_body\" ).html(); \n      $( \"#background_body\" ).empty(); \n      $( \"#background_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#background\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
+          "_params": {
+            "modalName": "impose",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Impose",
+            "modalBody": "to establish something as a rule to be obeyed, or to force the acceptance of something.",
+            "modalBodyHTML": false,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Close",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": true,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#impose\" data-bs-toggle=\"modal\" data-bs-target=\"#impose\">Preview impose</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#impose-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#impose-howtouse\">How to use impose</a>\n</div>\n<div class=\"modal fade\" id=\"impose-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"impose-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title display-7\" id=\"impose-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body display-7\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('impose')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "to establish something as a rule to be obeyed, or to force the acceptance of something.",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-10",
+          "modalWindow": "<div class=\"modal fade\" id=\"impose\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"imposeLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"imposeLabel\">Impose</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"impose_body\">to establish something as a rule to be obeyed, or to force the acceptance of something.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#impose\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#impose_body\" ).html(); \n      $( \"#impose_body\" ).empty(); \n      $( \"#impose_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#impose\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+        },
+        {
+          "_params": {
+            "modalName": "ideals",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Ideals",
+            "modalBody": "idea about what is good and right; a conception of something in its perfection; best example of something.",
+            "modalBodyHTML": false,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Close",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": true,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#ideals\" data-bs-toggle=\"modal\" data-bs-target=\"#ideals\">Preview ideals</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#ideals-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#ideals-howtouse\">How to use ideals</a>\n</div>\n<div class=\"modal fade\" id=\"ideals-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ideals-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title display-7\" id=\"ideals-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body display-7\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('ideals')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "idea about what is good and right; a conception of something in its perfection; best example of something.",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-11",
+          "modalWindow": "<div class=\"modal fade\" id=\"ideals\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"idealsLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"idealsLabel\">Ideals</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"ideals_body\">idea about what is good and right; a conception of something in its perfection; best example of something.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#ideals\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#ideals_body\" ).html(); \n      $( \"#ideals_body\" ).empty(); \n      $( \"#ideals_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#ideals\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+        },
+        {
+          "_params": {
+            "modalName": "preserving",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Preserving",
+            "modalBody": "to keep alive or in existence; make lasting",
+            "modalBodyHTML": false,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Close",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": true,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#preserving\" data-bs-toggle=\"modal\" data-bs-target=\"#preserving\">Preview preserving</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#preserving-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#preserving-howtouse\">How to use preserving</a>\n</div>\n<div class=\"modal fade\" id=\"preserving-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"preserving-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title display-7\" id=\"preserving-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body display-7\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('preserving')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "to keep alive or in existence; make lasting",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-12",
+          "modalWindow": "<div class=\"modal fade\" id=\"preserving\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"preservingLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"preservingLabel\">Preserving</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"preserving_body\">to keep alive or in existence; make lasting</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#preserving\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#preserving_body\" ).html(); \n      $( \"#preserving_body\" ).empty(); \n      $( \"#preserving_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#preserving\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+        },
+        {
+          "_params": {
+            "modalName": "reviving",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Reviving",
+            "modalBody": "to provide it with new energy; to bring something back to life, health, existence.",
+            "modalBodyHTML": false,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Close",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": true,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#reviving\" data-bs-toggle=\"modal\" data-bs-target=\"#reviving\">Preview reviving</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#reviving-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#reviving-howtouse\">How to use reviving</a>\n</div>\n<div class=\"modal fade\" id=\"reviving-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"reviving-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title display-7\" id=\"reviving-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body display-7\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('reviving')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "to provide it with new energy; to bring something back to life, health, existence.",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-13",
+          "modalWindow": "<div class=\"modal fade\" id=\"reviving\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"revivingLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"revivingLabel\">Reviving</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"reviving_body\">to provide it with new energy; to bring something back to life, health, existence.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#reviving\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#reviving_body\" ).html(); \n      $( \"#reviving_body\" ).empty(); \n      $( \"#reviving_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#reviving\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+        },
+        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -2255,38 +2387,6 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Modal title",
-            "modalBody": "Modal body text goes here.",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Close",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": false,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "Please use the gear-icon to change the modal name.",
-          "modalBody": "Modal body text goes here.",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "witsec-modal-window-block-r"
         }
       ]
     }
