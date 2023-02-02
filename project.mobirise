@@ -2302,7 +2302,7 @@
             "modalSize": "medium",
             "modalHeader": true,
             "modalTitle": "preserving",
-            "modalBody": "to keep alive or in existence; make lasting",
+            "modalBody": "to keep alive or in existence; make lasting.",
             "modalBodyHTML": false,
             "modalFooter": true,
             "modalCloseBtn": true,
@@ -2319,7 +2319,7 @@
             "modalAutoOpenDelay": 0
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#preserving\" data-bs-toggle=\"modal\" data-bs-target=\"#preserving\">Preview preserving</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#preserving-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#preserving-howtouse\">How to use preserving</a>\n</div>\n<div class=\"modal fade\" id=\"preserving-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"preserving-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title display-7\" id=\"preserving-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body display-7\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('preserving')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "to keep alive or in existence; make lasting",
+          "modalBody": "to keep alive or in existence; make lasting.",
           "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
@@ -2327,7 +2327,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-12",
-          "modalWindow": "<div class=\"modal fade\" id=\"preserving\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"preservingLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"preservingLabel\">preserving</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"preserving_body\">to keep alive or in existence; make lasting</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#preserving\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#preserving_body\" ).html(); \n      $( \"#preserving_body\" ).empty(); \n      $( \"#preserving_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#preserving\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"preserving\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"preservingLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"preservingLabel\">preserving</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"preserving_body\">to keep alive or in existence; make lasting.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#preserving\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#preserving_body\" ).html(); \n      $( \"#preserving_body\" ).empty(); \n      $( \"#preserving_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#preserving\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
