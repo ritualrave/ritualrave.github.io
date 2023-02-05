@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "tickets.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -12,15 +12,15 @@
         "warningColor": "#2cb57c",
         "dangerColor": "#e1fff3",
         "mainFont": "Jost",
-        "display1Font": "Noto Sans",
+        "display1Font": "Raleway",
         "display1Size": "4",
-        "display2Font": "Noto Sans",
+        "display2Font": "Raleway",
         "display2Size": "2",
-        "display5Font": "Noto Sans",
+        "display5Font": "Raleway",
         "display5Size": "2",
-        "display7Font": "Noto Sans",
+        "display7Font": "Work Sans",
         "display7Size": "1",
-        "display4Font": "Noto Sans",
+        "display4Font": "Work Sans",
         "display4Size": "1.2",
         "isRoundedButtons": false,
         "isGhostButtonBorder": false,
@@ -97,6 +97,16 @@
         "css": "'Inria Sans', sans-serif",
         "name": "Inria Sans",
         "url": "https://fonts.googleapis.com/css?family=Inria+Sans:300,300i,400,400i,700,700i"
+      },
+      {
+        "css": "'Raleway', sans-serif",
+        "name": "Raleway",
+        "url": "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Work Sans', sans-serif",
+        "name": "Work Sans",
+        "url": "https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
     "favicon": "@PROJECT_PATH@/assets/images/favicon-black-128x128.png",
