@@ -1993,7 +1993,7 @@
             "modalBody": "a kind of holding back or holding down; the government limits freedom or shuts out certain groups.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2015,7 +2015,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-s",
-          "modalWindow": "<div class=\"modal fade\" id=\"repression\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"repressionLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"repressionLabel\">repression</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"repression_body\">a kind of holding back or holding down; the government limits freedom or shuts out certain groups.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#repression\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#repression_body\" ).html(); \n      $( \"#repression_body\" ).empty(); \n      $( \"#repression_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#repression\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"repression\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"repressionLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"repressionLabel\">repression</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"repression_body\">a kind of holding back or holding down; the government limits freedom or shuts out certain groups.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#repression\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#repression_body\" ).html(); \n      $( \"#repression_body\" ).empty(); \n      $( \"#repression_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#repression\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2026,7 +2026,7 @@
             "modalBody": "the process of transforming or managing something for financial gain.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2048,7 +2048,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-t",
-          "modalWindow": "<div class=\"modal fade\" id=\"commercialisation\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"commercialisationLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"commercialisationLabel\">commercialisation</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"commercialisation_body\">the process of transforming or managing something for financial gain.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#commercialisation\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#commercialisation_body\" ).html(); \n      $( \"#commercialisation_body\" ).empty(); \n      $( \"#commercialisation_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#commercialisation\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"commercialisation\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"commercialisationLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"commercialisationLabel\">commercialisation</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"commercialisation_body\">the process of transforming or managing something for financial gain.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#commercialisation\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#commercialisation_body\" ).html(); \n      $( \"#commercialisation_body\" ).empty(); \n      $( \"#commercialisation_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#commercialisation\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2059,7 +2059,7 @@
             "modalBody": "a place or environment in which a person or category of people can feel confident that they will not be exposed to discrimination, criticism, harassment, or any other emotional or physical harm.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2081,7 +2081,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-u",
-          "modalWindow": "<div class=\"modal fade\" id=\"safer-space\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"safer-spaceLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"safer-spaceLabel\">safe(r) space</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"safer-space_body\">a place or environment in which a person or category of people can feel confident that they will not be exposed to discrimination, criticism, harassment, or any other emotional or physical harm.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#safer-space\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#safer-space_body\" ).html(); \n      $( \"#safer-space_body\" ).empty(); \n      $( \"#safer-space_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#safer-space\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"safer-space\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"safer-spaceLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"safer-spaceLabel\">safe(r) space</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"safer-space_body\">a place or environment in which a person or category of people can feel confident that they will not be exposed to discrimination, criticism, harassment, or any other emotional or physical harm.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#safer-space\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#safer-space_body\" ).html(); \n      $( \"#safer-space_body\" ).empty(); \n      $( \"#safer-space_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#safer-space\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2092,7 +2092,7 @@
             "modalBody": "a person's identity in relation to the gender or genders to which they are sexually attracted; the fact of being heterosexual, homosexual, etc.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2114,7 +2114,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-v",
-          "modalWindow": "<div class=\"modal fade\" id=\"sexuality\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"sexualityLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"sexualityLabel\">sexuality</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"sexuality_body\">a person's identity in relation to the gender or genders to which they are sexually attracted; the fact of being heterosexual, homosexual, etc.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#sexuality\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#sexuality_body\" ).html(); \n      $( \"#sexuality_body\" ).empty(); \n      $( \"#sexuality_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#sexuality\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"sexuality\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"sexualityLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"sexualityLabel\">sexuality</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"sexuality_body\">a person's identity in relation to the gender or genders to which they are sexually attracted; the fact of being heterosexual, homosexual, etc.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#sexuality\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#sexuality_body\" ).html(); \n      $( \"#sexuality_body\" ).empty(); \n      $( \"#sexuality_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#sexuality\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2125,7 +2125,7 @@
             "modalBody": "the quality or fact of belonging to a population group or subgroup made up of people who share a common cultural background or descent.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2147,7 +2147,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-w",
-          "modalWindow": "<div class=\"modal fade\" id=\"ethnicity\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ethnicityLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"ethnicityLabel\">ethnicity</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"ethnicity_body\">the quality or fact of belonging to a population group or subgroup made up of people who share a common cultural background or descent.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#ethnicity\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#ethnicity_body\" ).html(); \n      $( \"#ethnicity_body\" ).empty(); \n      $( \"#ethnicity_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#ethnicity\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"ethnicity\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ethnicityLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"ethnicityLabel\">ethnicity</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"ethnicity_body\">the quality or fact of belonging to a population group or subgroup made up of people who share a common cultural background or descent.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#ethnicity\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#ethnicity_body\" ).html(); \n      $( \"#ethnicity_body\" ).empty(); \n      $( \"#ethnicity_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#ethnicity\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2158,7 +2158,7 @@
             "modalBody": "a person's innate sense of their gender (used in contexts where it is contrasted with the sex registered for them at birth).",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2180,7 +2180,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-x",
-          "modalWindow": "<div class=\"modal fade\" id=\"gender-identity\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"gender-identityLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"gender-identityLabel\">gender identity</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"gender-identity_body\">a person's innate sense of their gender (used in contexts where it is contrasted with the sex registered for them at birth).</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#gender-identity\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#gender-identity_body\" ).html(); \n      $( \"#gender-identity_body\" ).empty(); \n      $( \"#gender-identity_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#gender-identity\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"gender-identity\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"gender-identityLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"gender-identityLabel\">gender identity</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"gender-identity_body\">a person's innate sense of their gender (used in contexts where it is contrasted with the sex registered for them at birth).</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#gender-identity\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#gender-identity_body\" ).html(); \n      $( \"#gender-identity_body\" ).empty(); \n      $( \"#gender-identity_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#gender-identity\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2191,7 +2191,7 @@
             "modalBody": "the expression of one's personality, emotions, thoughts, or ideas, especially in writing, clothing, art, music, or dance.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2213,7 +2213,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-y",
-          "modalWindow": "<div class=\"modal fade\" id=\"expression\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"expressionLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"expressionLabel\">expression</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"expression_body\">the expression of one's personality, emotions, thoughts, or ideas, especially in writing, clothing, art, music, or dance.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#expression\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#expression_body\" ).html(); \n      $( \"#expression_body\" ).empty(); \n      $( \"#expression_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#expression\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"expression\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"expressionLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"expressionLabel\">expression</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"expression_body\">the expression of one's personality, emotions, thoughts, or ideas, especially in writing, clothing, art, music, or dance.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#expression\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#expression_body\" ).html(); \n      $( \"#expression_body\" ).empty(); \n      $( \"#expression_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#expression\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2224,7 +2224,7 @@
             "modalBody": "the customs, traditions, and beliefs that a person has grown up with and which have shaped their worldview, such as the kind of family you come from and the kind of education you have had.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2246,7 +2246,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-z",
-          "modalWindow": "<div class=\"modal fade\" id=\"background\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"backgroundLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"backgroundLabel\">background</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"background_body\">the customs, traditions, and beliefs that a person has grown up with and which have shaped their worldview, such as the kind of family you come from and the kind of education you have had.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#background\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#background_body\" ).html(); \n      $( \"#background_body\" ).empty(); \n      $( \"#background_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#background\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"background\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"backgroundLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"backgroundLabel\">background</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"background_body\">the customs, traditions, and beliefs that a person has grown up with and which have shaped their worldview, such as the kind of family you come from and the kind of education you have had.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#background\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#background_body\" ).html(); \n      $( \"#background_body\" ).empty(); \n      $( \"#background_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#background\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2257,7 +2257,7 @@
             "modalBody": "to establish something as a rule to be obeyed, or to force the acceptance of something.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2279,7 +2279,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-10",
-          "modalWindow": "<div class=\"modal fade\" id=\"impose\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"imposeLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"imposeLabel\">impose</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"impose_body\">to establish something as a rule to be obeyed, or to force the acceptance of something.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#impose\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#impose_body\" ).html(); \n      $( \"#impose_body\" ).empty(); \n      $( \"#impose_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#impose\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"impose\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"imposeLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"imposeLabel\">impose</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"impose_body\">to establish something as a rule to be obeyed, or to force the acceptance of something.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#impose\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#impose_body\" ).html(); \n      $( \"#impose_body\" ).empty(); \n      $( \"#impose_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#impose\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2290,7 +2290,7 @@
             "modalBody": "idea about what is good and right; a conception of something in its perfection; best example of something.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2312,7 +2312,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-11",
-          "modalWindow": "<div class=\"modal fade\" id=\"ideals\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"idealsLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"idealsLabel\">ideals</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"ideals_body\">idea about what is good and right; a conception of something in its perfection; best example of something.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#ideals\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#ideals_body\" ).html(); \n      $( \"#ideals_body\" ).empty(); \n      $( \"#ideals_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#ideals\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"ideals\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"idealsLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"idealsLabel\">ideals</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"ideals_body\">idea about what is good and right; a conception of something in its perfection; best example of something.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#ideals\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#ideals_body\" ).html(); \n      $( \"#ideals_body\" ).empty(); \n      $( \"#ideals_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#ideals\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2323,7 +2323,7 @@
             "modalBody": "to keep alive or in existence; make lasting.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2345,7 +2345,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-12",
-          "modalWindow": "<div class=\"modal fade\" id=\"preserving\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"preservingLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"preservingLabel\">preserving</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"preserving_body\">to keep alive or in existence; make lasting.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#preserving\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#preserving_body\" ).html(); \n      $( \"#preserving_body\" ).empty(); \n      $( \"#preserving_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#preserving\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"preserving\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"preservingLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"preservingLabel\">preserving</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"preserving_body\">to keep alive or in existence; make lasting.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#preserving\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#preserving_body\" ).html(); \n      $( \"#preserving_body\" ).empty(); \n      $( \"#preserving_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#preserving\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2356,7 +2356,7 @@
             "modalBody": "to provide it with new energy; to bring something back to life, health, existence.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2378,7 +2378,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-13",
-          "modalWindow": "<div class=\"modal fade\" id=\"reviving\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"revivingLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"revivingLabel\">reviving</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"reviving_body\">to provide it with new energy; to bring something back to life, health, existence.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#reviving\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#reviving_body\" ).html(); \n      $( \"#reviving_body\" ).empty(); \n      $( \"#reviving_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#reviving\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"reviving\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"revivingLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"revivingLabel\">reviving</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"reviving_body\">to provide it with new energy; to bring something back to life, health, existence.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#reviving\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#reviving_body\" ).html(); \n      $( \"#reviving_body\" ).empty(); \n      $( \"#reviving_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#reviving\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2389,7 +2389,7 @@
             "modalBody": "not able to be recognised or identified from previous encounters.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2411,7 +2411,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-14",
-          "modalWindow": "<div class=\"modal fade\" id=\"unrecognisable\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"unrecognisableLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"unrecognisableLabel\">unrecognisable</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"unrecognisable_body\">not able to be recognised or identified from previous encounters.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#unrecognisable\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#unrecognisable_body\" ).html(); \n      $( \"#unrecognisable_body\" ).empty(); \n      $( \"#unrecognisable_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#unrecognisable\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"unrecognisable\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"unrecognisableLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"unrecognisableLabel\">unrecognisable</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"unrecognisable_body\">not able to be recognised or identified from previous encounters.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#unrecognisable\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#unrecognisable_body\" ).html(); \n      $( \"#unrecognisable_body\" ).empty(); \n      $( \"#unrecognisable_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#unrecognisable\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_params": {
@@ -2422,7 +2422,7 @@
             "modalBody": "a situation in which a person's identity is unknown or spoken of by name.",
             "modalBodyHTML": false,
             "modalFooter": true,
-            "modalCloseBtn": true,
+            "modalCloseBtn": false,
             "modalCloseText": "Close",
             "modalLink": false,
             "modalLinkUrl": "https://mobirise.com/",
@@ -2444,7 +2444,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-15",
-          "modalWindow": "<div class=\"modal fade\" id=\"anonymity\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"anonymityLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"anonymityLabel\">anonymity</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"anonymity_body\">a situation in which a person's identity is unknown or spoken of by name.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#anonymity\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#anonymity_body\" ).html(); \n      $( \"#anonymity_body\" ).empty(); \n      $( \"#anonymity_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#anonymity\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"anonymity\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"anonymityLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title display-7\" id=\"anonymityLabel\">anonymity</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body display-7\" id=\"anonymity_body\">a situation in which a person's identity is unknown or spoken of by name.</div><div class=\"modal-footer\"></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#anonymity\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#anonymity_body\" ).html(); \n      $( \"#anonymity_body\" ).empty(); \n      $( \"#anonymity_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#anonymity\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "alias": false,
