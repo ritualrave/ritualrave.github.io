@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "narcosisxritualrave.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -155,7 +155,7 @@
     "dppsSwitcher": true,
     "spellingSwitch": true,
     "global_before_html": "",
-    "global_header_custom": "\n<script>\n  document.addEventListener(\"dragstart\", function(event) {\n    event.preventDefault();\n  });\n  \n  document.addEventListener(\"dragover\", function(event) {\n    event.preventDefault();\n  });\n  \n  document.addEventListener(\"drop\", function(event) {\n    event.preventDefault();\n  });\n</script>\n",
+    "global_header_custom": "\n<script>\n  document.addEventListener(\"dragstart\", function(event) {\n    event.preventDefault();\n  });\n  \n  document.addEventListener(\"dragover\", function(event) {\n    event.preventDefault();\n  });\n  \n  document.addEventListener(\"drop\", function(event) {\n    event.preventDefault();\n  });\n</script>\n\n    <style>\n        ::selection {\n            background-color: #7f5bf0; /* Change this to your desired background color */\n            color: #FFFFFF; /* Change this to your desired text color */\n        }\n    </style>",
     "cookiesAlert": {
       "customDialogSelector": false,
       "colorText": "#ffffff",
