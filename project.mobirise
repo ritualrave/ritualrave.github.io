@@ -12,15 +12,15 @@
         "warningColor": "#2cb57c",
         "dangerColor": "#e1fff3",
         "mainFont": "Jost",
-        "display1Font": "Work Sans",
+        "display1Font": "Rubik",
         "display1Size": "4",
-        "display2Font": "Work Sans",
+        "display2Font": "Rubik",
         "display2Size": "2",
-        "display5Font": "Work Sans",
+        "display5Font": "Rubik",
         "display5Size": "2",
-        "display7Font": "Work Sans",
+        "display7Font": "Rubik",
         "display7Size": "1",
-        "display4Font": "Work Sans",
+        "display4Font": "Rubik",
         "display4Size": "1.2",
         "isRoundedButtons": false,
         "isGhostButtonBorder": false,
@@ -107,6 +107,16 @@
         "css": "'Work Sans', sans-serif",
         "name": "Work Sans",
         "url": "https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Fjalla One', sans-serif",
+        "name": "Fjalla One",
+        "url": "https://fonts.googleapis.com/css?family=Fjalla+One:400"
+      },
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
     "favicon": "@PROJECT_PATH@/assets/images/favicon-black-128x128.png",
