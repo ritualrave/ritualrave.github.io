@@ -1215,7 +1215,7 @@ a {
     object-fit: contain;
   }
   .cid-tPDAJdASqw .container .carousel-control {
-    margin-bottom: 0;
+    margin-top: 0;
   }
   .cid-tPDAJdASqw .content-slider-wrap {
     width: 100% !important;
@@ -1310,14 +1310,27 @@ a {
 }
 .cid-tPDAJdASqw .carousel-control-prev,
 .cid-tPDAJdASqw .carousel-control-next {
-  opacity: 0;
-  background-color: transparent;
-  border: none;
+  opacity: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  width: 50% !important;
+  height: 80% !important;
+  border-radius: 0 !important;
 }
 .cid-tPDAJdASqw .carousel-control-prev:hover,
 .cid-tPDAJdASqw .carousel-control-next:hover {
-  opacity: 0;
-  background-color: transparent;
+  opacity: 0 !important;
+  background-color: transparent !important;
+}
+.cid-tPDAJdASqw .container {
+  position: relative;
+}
+.cid-tPDAJdASqw .gallery {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #000000;
 }
 .cid-sFHu2wLoQp {
   padding-top: 30px;
