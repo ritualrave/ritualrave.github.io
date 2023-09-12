@@ -1238,20 +1238,20 @@ a {
   opacity: 1;
 }
 .cid-tPDAJdASqw .mobi-mbri-arrow-next {
-  margin-left: 5px;
+  margin-left: 0px;
 }
 .cid-tPDAJdASqw .mobi-mbri-arrow-prev {
-  margin-right: 5px;
+  margin-right: 0px;
 }
 .cid-tPDAJdASqw .container .carousel-indicators {
   margin-bottom: 3px;
 }
 .cid-tPDAJdASqw .carousel-control {
-  top: 50%;
-  width: 60px;
-  height: 60px;
+  top: 10%;
+  width: 40%;
+  height: 80%;
   margin-top: -1.5rem;
-  font-size: 22px;
+  font-size: 220px;
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid #fff;
   border-radius: 50%;
@@ -1277,10 +1277,10 @@ a {
   margin-bottom: 1.5rem !important;
 }
 .cid-tPDAJdASqw .carousel-indicators li {
-  max-width: 15px;
-  height: 15px;
-  width: 15px;
-  max-height: 15px;
+  max-width: 3px;
+  height: 3px;
+  width: 3px;
+  max-height: 3px;
   margin: 3px;
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid #fff;
@@ -1307,6 +1307,17 @@ a {
   .cid-tPDAJdASqw .carousel-indicators {
     display: none !important;
   }
+}
+.cid-tPDAJdASqw .carousel-control-prev,
+.cid-tPDAJdASqw .carousel-control-next {
+  opacity: 0;
+  background-color: transparent;
+  border: none;
+}
+.cid-tPDAJdASqw .carousel-control-prev:hover,
+.cid-tPDAJdASqw .carousel-control-next:hover {
+  opacity: 0;
+  background-color: transparent;
 }
 .cid-sFHu2wLoQp {
   padding-top: 30px;
