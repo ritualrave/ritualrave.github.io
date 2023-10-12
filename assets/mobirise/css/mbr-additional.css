@@ -1332,6 +1332,30 @@ a {
   right: 0;
   background-color: #000000;
 }
+.cid-tSun2CZZha {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/background-bottom-2000x1067.jpg");
+}
+.cid-tSun2CZZha .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.cid-tSun2CZZha form .mbr-section-btn {
+  text-align: center;
+  width: 100%;
+}
+.cid-tSun2CZZha form .mbr-section-btn .btn {
+  display: inline-flex;
+}
+@media (max-width: 991px) {
+  .cid-tSun2CZZha form .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+.cid-tSun2CZZha .mbr-section-title {
+  color: #ffffff;
+}
 .cid-sFHu2wLoQp {
   padding-top: 30px;
   padding-bottom: 30px;
