@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "tickets.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -13,13 +13,13 @@
         "dangerColor": "#e1fff3",
         "mainFont": "Jost",
         "display1Font": "Barlow",
-        "display1Size": "4",
+        "display1Size": "2.6",
         "display2Font": "Barlow",
-        "display2Size": "2",
+        "display2Size": "1.6",
         "display5Font": "Barlow",
         "display5Size": "2",
         "display7Font": "Nunito",
-        "display7Size": "1.2",
+        "display7Size": "1",
         "display4Font": "Nunito",
         "display4Size": "1",
         "isRoundedButtons": false,
