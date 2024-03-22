@@ -148,16 +148,16 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "gdpr": false,
-    "uniqCompNum": 190,
+    "uniqCompNum": 193,
     "versionPublish": "5.7.8",
     "screenshot": "screenshot.png",
     "witsec-white-label": true,
-    "witsec-mailform-to": "brandonrijpert@gmail.com",
+    "witsec-mailform-to": "info@ritualrave.be",
     "witsec-mailform-to-alt": "",
-    "witsec-mailform-from": "brandonrijpert@gmail.com",
+    "witsec-mailform-from": "info@ritualrave.be",
     "witsec-mailform-from-them": false,
-    "witsec-mailform-from-them-replyto": false,
-    "witsec-mailform-from-name": "Your Name",
+    "witsec-mailform-from-them-replyto": true,
+    "witsec-mailform-from-name": "Ritual Rave",
     "witsec-mailform-from-name-them": false,
     "witsec-mailform-from-name-them-field": "{name}",
     "witsec-mailform-template": "Hi,\n\nYou have received a new message from your website.\n\n{formdata}\n\nDate: {date}\nRemote IP: {ip}\n\n---\nHave a nice day.",
@@ -169,7 +169,7 @@
     "witsec-mailform-recaptcha-sitekey": "",
     "witsec-mailform-recaptcha-secretkey": "",
     "witsec-mailform-recaptcha-score": "0.5",
-    "witsec-mailform-disable-button": false,
+    "witsec-mailform-disable-button": true,
     "witsec-mailform-smtp": false,
     "witsec-mailform-smtp-debug": false,
     "witsec-mailform-smtp-host": "",
@@ -201,7 +201,11 @@
       "rejectText": "REJECT"
     },
     "cookiesAlertType": "1",
-    "witsec-mailform-recaptcha-hidebadge": false
+    "witsec-mailform-recaptcha-hidebadge": false,
+    "witsec-mailform-dateformat": "F j, Y",
+    "witsec-mailform-timeformat": "H:i",
+    "witsec-mailform-attachments-extensions": "avi\nbmp\ncer\ncfg\ncss\ncsv\ncur\ndoc\ndocx\neml\nemlx\nfnt\nfon\ngif\nh264\nico\nini\njpeg\njpg\nkey\nlog\nmid\nmkv\nmov\nmp3\nmp4\nmpa\nmpeg\nmpg\nmsg\nodp\nods\nodt\nogg\notf\npdf\npng\npps\nppt\npptx\nps\npsd\nrss\nrtf\nsvg\ntif\ntiff\nttf\ntxt\nvcf\nwav\nwebm\nwebp\nwma\nwmv\nwpd\nxls\nxlsx",
+    "witsec-mailform-allowedhtml": "b,br,i,p,u"
   },
   "pages": {
     "index.html": {
