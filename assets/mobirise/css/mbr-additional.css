@@ -15865,6 +15865,13 @@ a {
 .cid-uCDKCGszpR .mbr-section-title {
   color: #ffffff;
 }
+.cid-uCDKCGszpR .header10 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .cid-uCDwE7C4hu {
   padding-top: 30px;
   padding-bottom: 30px;
